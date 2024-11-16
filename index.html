@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="menu container" id="inicio">
+            <a href="#" class="logo">Mafe</a>
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <img src="images/menu.png" alt="" id="abrir" class="abrir-menu">
+            </label>
+            <nav class="navbar">
+                <ul id="ul" class="ul">
+                    <button id="cerrar" class="cerrar-menu"><b>X</b></button>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#productos">Productos</a></li>
+                    <li><a href="#contactos">Contactos</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="header-content container" >
+            <div class="header-txt" >
+                <span>Tienda</span>
+                <h1>Mafe shop<br>un almacén místico</h1>
+                <p>Queremos ayudarte a construir el jardín de tus sueños</p>
+                <button class="btn-1" id="hideText_btn">Informacion</button>
+            </div>
+            <div class="header-img">
+                <img src="images/logo esq.jpg" alt="" class="todos">
+            </div>
+        </div>
+
+        <div class="ventana" id="hideText">
+                <h3>Detalles de la tienda</h3>
+                <br>
+                <p>Los productos estan ordendos alfabeticamente en caso de querer solicitar un
+                producto presione click en "comprar", de esta forma nos llegara un mensaje
+                predeterminado del producto solicitado. En instantes nos cominicaremos con usted
+                para facilitar su petición</p>
+                <p>Tambien pueden comunicarse con nosotros desde el apartado "contactos" <br>no dude en consultarnos</p>
+                <h4>¡Muchas gracias por elegirnos!</h4>
+            </div>
+
+    </header>
+    <section class="information container">
+        <div class="information-content">
+            
+            <div class="information-1">
+                <img src="images/money-regular-24.png" alt="">
+                <h3>Efectivo</h3>
+            </div>
+
+            <div class="information-1">
+                <img src="images/mercado-pago.png" alt="" class="mp">
+                <h3>Transferencia/QR</h3>
+            </div>
+
+            <div class="information-1">
+                <img src="images/credit-card-regular-24.png" alt="">
+                <h3>Tarjeta</h3>
+                
+            </div>
+        </div>
+    </section>
+
+    <secition class="oferts container">
+        
+        <div class="ofert-1">
+            <i class='bx bxs-tree'></i>
+            <i class='bx bxs-florist'></i>
+            <h3>Plantas y productos</h3>
+            <p>premiun</p>
+        </div>
+
+        <div class="ofert-1">
+            <i class='bx bxs-cat'></i>
+            <i class='bx bxs-dog'></i>
+            <h3>Productos para mascotas</h3>
+            <p>premiun</p>
+        </div>
+
+        <div class="ofert-1">
+            <i class='bx bx-fork'></i>
+            <h3>Acsesorios para jardines</h3>
+            <p>premiun</p>
+        </div>
+
+      
+    </secition>
+
+    <div class="id" id="productos"><br> <br></div>
+
+    <main class="productos" id="lista-1">
+        <h2 >Productos destacados</h2>
+
+        <div class="product-content">
+
+            <div class="product">
+                <img src="images/activador con follaje.jpg" alt="">
+                <div class="product-txt">
+                    <h3>activador con follaje</h3>
+                    <p class="precio">$3200</p>
+                    <a href="https://api.whatsapp.com/send?phone=541176302064&text=¡Hola, quiero comprar el producto (activador con follaje)!" class="agregar-carrito btn-2" data-id="16"><i class='bx bxl-whatsapp'></i>Agregar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/peces.jpg" alt="">
+                <div class="product-txt">
+                    <h3>alimentos para peces</h3>
+                    <p class="precio">$1500</p>
+                    <a href="https://api.whatsapp.com/send?phone=541176302064&text=¡Hola, quiero comprar el producto (comidas para peces)!" class="agregar-carrito btn-2" data-id="16"><i class='bx bxl-whatsapp'></i>Agregar</a>
+                </div>
+            </div>
+
+
+            <div class="product">
+                <img src="images/bebedero2.jpg" alt="">
+                <div class="product-txt">
+                    <h3>bebedero</h3>
+                    <p class="precio">$2350</p>
+                    <a href="https://api.whatsapp.com/send?phone=541176302064&text=¡Hola, quiero comprar el producto (bebedero cumún)!" class="agregar-carrito btn-2" data-id="2"><i class='bx bxl-whatsapp'></i>Comprar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/bebedero1.jpg" alt="">
+                <div class="product-txt">
+                    <h3>bebedero de mariposas</h3>
+                    <p class="precio">$2100</p>
+                    <a href="https://api.whatsapp.com/send?phone=541176302064&text=¡Hola, quiero comprar el producto (bebedero para colibri de mariposas)!" class="agregar-carrito btn-2" data-id="1"><i class='bx bxl-whatsapp'></i>Comprar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/captus.jpg" alt="">
+                <div class="product-txt">
+                    <h3>cactus y suculentas</h3>
+                    <p class="precio">$2150</p>
+                    <a href="https://api.whatsapp.com/send?phone=541176302064&text=¡Hola, quiero comprar el producto (captus y suculentas)!" class="agregar-carrito btn-2" data-id="16"><i class='bx bxl-whatsapp'></i>Agregar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/potenciado.jpg" alt="">
+                <div class="product-txt">
+                    <h3>fertifox</h3>
+                    <p class="precio">$3200</p>
+                    <a href="https://api.whatsapp.com/send?phone=541176302064&text=¡Hola, quiero comprar el producto (fertifox)!" class="agregar-carrito btn-2" data-id="13"><i class='bx bxl-whatsapp'></i>Comprar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/10kilos.jpg" alt="">
+                <div class="product-txt">
+                    <h3>glaco xam 10kilos</h3>
+                    <p class="precio">$2000</p>
+                    <a href="https://api.whatsapp.com/send?phone=541176302064&text=¡Hola, quiero comprar el producto (glaco xam 10kilos)!" class="agregar-carrito btn-2" data-id="16"><i class='bx bxl-whatsapp'></i>Agregar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/10-20kilos.jpg" alt="">
+                <div class="product-txt">
+                    <h3>glaco xam 10-20kilos</h3>
+                    <p class="precio">$2200</p>
+                    <a href="https://api.whatsapp.com/send?phone=541176302064&text=¡Hola, quiero comprar el producto (glaco xam 10-20kilos)!" class="agregar-carrito btn-2" data-id="16"><i class='bx bxl-whatsapp'></i>Agregar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/+20kilos.jpg" alt="">
+                <div class="product-txt">
+                    <h3>glaco xam +20kilos</h3>
+                    <p class="precio">$2400</p>
+                    <a href="https://api.whatsapp.com/send?phone=541176302064&text=¡Hola, quiero comprar el producto (glaco xam +20kilos)!" class="agregar-carrito btn-2" data-id="16"><i class='bx bxl-whatsapp'></i>Agregar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/green insumos.jpg" alt="">
+                <div class="product-txt">
+                    <h3>green insumos</h3>
+                    <p class="precio">$2150</p>
+                    <a href="https://api.whatsapp.com/send?phone=541176302064&text=¡Hola, quiero comprar el producto (green insumos)!" class="agregar-carrito btn-2" data-id="16"><i class='bx bxl-whatsapp'></i>Agregar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/guantes1.jpg" alt="">
+                <div class="product-txt">
+                    <h3>guantes</h3>
+                    <p class="precio">$1500</p>
+                    <a href="https://api.whatsapp.com/send?phone=541176302064&text=¡Hola, quiero comprar el producto (guantes)!" class="agregar-carrito btn-2" data-id="16"><i class='bx bxl-whatsapp'></i>Agregar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/harina de hueso.jpg" alt="">
+                <div class="product-txt">
+                    <h3>harina de hueso</h3>
+                    <p class="precio">$1400</p>
+                    <a href="https://api.whatsapp.com/send?phone=541176302064&text=¡Hola, quiero comprar el producto (harina de hueso)!" class="agregar-carrito btn-2" data-id="16"><i class='bx bxl-whatsapp'></i>Agregar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/hiervas pyg.jpg" alt="">
+                <div class="product-txt">
+                    <h3>hiervas para perros y gatos</h3>
+                    <p class="precio">$2000</p>
+                    <a href="https://api.whatsapp.com/send?phone=541176302064&text=¡Hola, quiero comprar el producto (pasto para perros y gatos)!" class="agregar-carrito btn-2" data-id="16"><i class='bx bxl-whatsapp'></i>Agregar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/javon potasico.jpg" alt="">
+                <div class="product-txt">
+                    <h3>javón potásico</h3>
+                    <p class="precio">$5000</p>
+                    <a href="https://api.whatsapp.com/send?phone=541176302064&text=¡Hola, quiero comprar el producto (javon potásico)!" class="agregar-carrito btn-2" data-id="16"><i class='bx bxl-whatsapp'></i>Agregar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/media sombra.jpg" alt="">
+                <div class="product-txt">
+                    <h3>media sombra</h3>
+                    <p class="precio">$4450</p>
+                    <a href="https://api.whatsapp.com/send?phone=541176302064&text=¡Hola, quiero comprar el producto (media sombra)!" class="agregar-carrito btn-2" data-id="16"><i class='bx bxl-whatsapp'></i>Agregar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/nitro azul.jpg" alt="">
+                <div class="product-txt">
+                    <h3>nitro azul</h3>
+                    <p class="precio">$2700</p>
+                    <a href="https://api.whatsapp.com/send?phone=541176302064&text=¡Hola, quiero comprar el producto (nitro azul)!" class="agregar-carrito btn-2" data-id="16"><i class='bx bxl-whatsapp'></i>Agregar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/nueve variedades.jpg" alt="">
+                <div class="product-txt">
+                    <h3>nueve variedad</h3>
+                    <p class="precio">$4750</p>
+                    <a href="https://api.whatsapp.com/send?phone=541176302064&text=¡Hola, quiero comprar el producto (nueve variedad)!" class="agregar-carrito btn-2" data-id="16"><i class='bx bxl-whatsapp'></i>Agregar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/palitas1.jpg" alt="">
+                <div class="product-txt">
+                    <h3>palitas</h3>
+                    <p class="precio">$2100</p>
+                    <a href="https://api.whatsapp.com/send?phone=541176302064&text=¡Hola, quiero comprar el producto (palitas)!" class="agregar-carrito btn-2" data-id="16"><i class='bx bxl-whatsapp'></i>Agregar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/perlita.jpg" alt="">
+                <div class="product-txt">
+                    <h3>perlita</h3>
+                    <p class="precio">$1100</p>
+                    <a href="https://api.whatsapp.com/send?phone=541176302064&text=¡Hola, quiero comprar el producto (perlita)!" class="agregar-carrito btn-2" data-id="16"><i class='bx bxl-whatsapp'></i>Comprar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/pinza.jpg" alt="">
+                <div class="product-txt">
+                    <h3>pinza cortadora</h3>
+                    <p class="precio">$6000</p>
+                    <a href="https://api.whatsapp.com/send?phone=541176302064&text=¡Hola, quiero comprar el producto (pinza cortadora)!" class="agregar-carrito btn-2" data-id="16"><i class='bx bxl-whatsapp'></i>Comprar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/plantas crasas.jpg" alt="">
+                <div class="product-txt">
+                    <h3>platas crasas</h3>
+                    <p class="precio">$2800</p>
+                    <a href="https://api.whatsapp.com/send?phone=541176302064&text=¡Hola, quiero comprar el producto (platas crasas)!" class="agregar-carrito btn-2" data-id="15"><i class='bx bxl-whatsapp'></i>Comprar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/pleno sol.jpg" alt="">
+                <div class="product-txt">
+                    <h3>pleno sol</h3>
+                    <p class="precio">$4450</p>
+                    <a href="https://api.whatsapp.com/send?phone=541176302064&text=¡Hola, quiero comprar el producto (pleno sol)!" class="agregar-carrito btn-2" data-id="14"><i class='bx bxl-whatsapp'></i>Comprar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/regador chico.jpg" alt="">
+                <div class="product-txt">
+                    <h3>regador chico</h3>
+                    <p class="precio">$750</p>
+                    <a href="https://api.whatsapp.com/send?phone=541176302064&text=¡Hola, quiero comprar el producto (regador chico)!" class="agregar-carrito btn-2" data-id="12"><i class='bx bxl-whatsapp'></i>Comprar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/regador1.jpg" alt="">
+                <div class="product-txt">
+                    <h3>regador grande</h3>
+                    <p class="precio">$1875</p>
+                    <a href="https://api.whatsapp.com/send?phone=541176302064&text=¡Hola, quiero comprar el producto (regador grande)!" class="agregar-carrito btn-2" data-id="11"><i class='bx bxl-whatsapp'></i>Comprar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/semillas.jpg" alt="">
+                <div class="product-txt">
+                    <h3>semillas</h3>
+                    <p class="precio">$600</p>
+                    <a href="https://api.whatsapp.com/send?phone=541176302064&text=¡Hola, quiero comprar el producto (semillas)!" class="agregar-carrito btn-2" data-id="10"><i class='bx bxl-whatsapp'></i>Comprar</a>
+                </div>
+            </div>
+
+
+            <div class="product">
+                <img src="images/zulfato hierro.jpg" alt="">
+                <div class="product-txt">
+                    <h3>sulfato de hierro</h3>
+                    <p class="precio">$1500</p>
+                    <a href="https://api.whatsapp.com/send?phone=541176302064&text=¡Hola, quiero comprar el producto (sulfato de hierro)!" class="agregar-carrito btn-2" data-id="3"><i class='bx bxl-whatsapp'></i>Comprar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/tree mix a.jpg" alt="">
+                <div class="product-txt">
+                    <h3>treemix a</h3>
+                    <p class="precio">$1700</p>
+                    <a href="https://api.whatsapp.com/send?phone=541176302064&text=¡Hola, quiero comprar el producto (treemix a)!" class="agregar-carrito btn-2" data-id="9"><i class='bx bxl-whatsapp'></i>Comprar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/treemix pro.jpg" alt="">
+                <div class="product-txt">
+                    <h3>treemix pro</h3>
+                    <p class="precio">$1950</p>
+                    <a href="https://api.whatsapp.com/send?phone=541176302064&text=¡Hola, quiero comprar el producto (treemix pro)!" class="agregar-carrito btn-2" data-id="7"><i class='bx bxl-whatsapp'></i>Comprar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/trimix f.jpg" alt="">
+                <div class="product-txt">
+                    <h3>trimix m</h3>
+                    <p class="precio">$1600</p>
+                    <a href="https://api.whatsapp.com/send?phone=541176302064&text=¡Hola, quiero comprar el producto (trimix m)!" class="agregar-carrito btn-2" data-id="6"><i class='bx bxl-whatsapp'></i>Comprar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/treemix n.jpg" alt="">
+                <div class="product-txt">
+                    <h3>trimix n</h3>
+                    <p class="precio">$1800</p>
+                    <a href="https://api.whatsapp.com/send?phone=541176302064&text=¡Hola, quiero comprar el producto (trimix n)!" class="agregar-carrito btn-2" data-id="8"><i class='bx bxl-whatsapp'></i>Comprar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/urea.jpg" alt="">
+                <div class="product-txt">
+                    <h3>urea</h3>
+                    <p class="precio">$1700</p>
+                    <a href="https://api.whatsapp.com/send?phone=541176302064&text=¡Hola, quiero comprar el producto (urea)!" class="agregar-carrito btn-2" data-id="5"><i class='bx bxl-whatsapp'></i>Comprar</a>
+                </div>
+            </div>
+
+                <div class="product">
+                    <img src="images/vemiculita.jpg" alt="">
+                    <div class="product-txt">
+                        <h3>vermiculita</h3>
+                        <p class="precio">$3000</p>
+                        <a href="https://api.whatsapp.com/send?phone=541176302064&text=¡Hola, quiero comprar el producto (vermiculita)!" class="agregar-carrito btn-2" data-id="4"><i class='bx bxl-whatsapp'></i>Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="service">
+
+        <div class="service-1">
+            <img src="images/Kaktus-yang-Populer.jpg" alt="" class="store">
+        </div>
+        <div class="service-2">
+            <img src="images/perros-y-el-jardines-2520-25282-2529.jpg" alt="" class="store">
+        </div>
+        <div class="service-3">
+            <img src="images/tutoriales-de-jardineria.jpg" alt="" class="store">
+        </div>
+
+    </section>
+
+
+    <footer class="footer" id="contactos">
+        <div class="footer-content container">
+
+            <div class="link">
+                <h3>Contactenos por whatsapp</h3>
+                <ul>
+                    <li><a href="https://api.whatsapp.com/send?phone=541176302064"><i class='bx bxl-whatsapp'></i> Federico</a></li>
+                    <li><a href="https://api.whatsapp.com/send?phone=541176302063"><i class='bx bxl-whatsapp'></i> Marcela</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="script.js"></script>
+
+    <script src="menu.js"></script>
+</body>
+</html>
